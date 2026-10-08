@@ -32,6 +32,26 @@ posted it.
    question: what happened, to whom, and what did it cost or return. A post
    needs one specific true thing. Get it before writing.
 
+## Which product
+
+Some users post for more than one product or brand from the same profile.
+If `~/.claude/linkedin/config.json` lists `products`, every draft is for
+exactly one of them:
+
+1. **Take it from the request** - "for TaxJeje", "for the agency". If the
+   request does not name one, **ask which before writing anything.** Do not
+   guess from the topic.
+2. **Write from that product's section of the voice file** (its
+   `voice_section`): its audience, tone and proof points. The shared sections
+   still apply. Never borrow a proof point from another product.
+3. **Read every file in `checks`** (top level, for every product) **and in
+   that product's own `checks`** before drafting. They are the user's rules:
+   banned claims, verified figures, disclosure. A draft that breaks one is not
+   shown. Say which rule it broke and redraft.
+4. **Name the product in the receipt** under the draft, so the log records it.
+
+No `products` in the config means one voice and one audience, as before.
+
 ## The shape
 
 LinkedIn rewards dwell time, saves and comments, in that order. So:
@@ -67,6 +87,7 @@ pasted. Then, underneath:
 
 ```
 POST READY
+product:   (from config, if it lists products)
 hook:      #17 Time Anchor
 length:    1,140 characters
 humanizer: 6 artefacts stripped, human score 84 PASS
