@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "note": "Lexicon used by humanize.py and detect.py. Replacements are plain-English and keep the sentence grammatical. Edit freely - it is meant to be yours.",
+  "note": "Lexicon used by humanize.py and detect.py. Replacements are plain-English and keep the sentence grammatical. Edit freely - it is meant to be yours. Fattah Labs edits (2026-10-08): 'showcase' removed (LinkedIn's own term for a showcase page); company banned words and TaxJeje banned claims added.",
   "invisible": [
     {
       "cp": "U+200B",
@@ -204,11 +204,6 @@
     {
       "find": "facilitate",
       "replace": "help",
-      "family": "verbs"
-    },
-    {
-      "find": "showcase",
-      "replace": "show",
       "family": "verbs"
     },
     {
@@ -550,6 +545,61 @@
       "find": "it is worth noting that",
       "replace": "note that",
       "family": "connectives"
+    },
+    {
+      "find": "world-class",
+      "replace": "strong",
+      "family": "adjectives"
+    },
+    {
+      "find": "next-generation",
+      "replace": "new",
+      "family": "adjectives"
+    },
+    {
+      "find": "revolutionary",
+      "replace": "new",
+      "family": "adjectives"
+    },
+    {
+      "find": "empowering",
+      "replace": "helping",
+      "family": "verbs"
+    },
+    {
+      "find": "unlocks",
+      "replace": "opens",
+      "family": "verbs"
+    },
+    {
+      "find": "elevates",
+      "replace": "improves",
+      "family": "verbs"
+    },
+    {
+      "find": "streamlines",
+      "replace": "simplifies",
+      "family": "verbs"
+    },
+    {
+      "find": "boosts",
+      "replace": "raises",
+      "family": "verbs"
+    },
+    {
+      "find": "boost",
+      "replace": "raise",
+      "family": "verbs"
+    },
+    {
+      "find": "FIRS",
+      "replace": "NRS",
+      "family": "nouns"
+    },
+    {
+      "find": "TaxProMax",
+      "replace": "Rev360",
+      "family": "nouns"
     }
   ],
   "phrases": [
@@ -711,6 +761,41 @@
     {
       "find": "who's with me",
       "replace": "",
+      "family": "closers"
+    },
+    {
+      "find": "transform your business",
+      "replace": "change how your business runs",
+      "family": "openers"
+    },
+    {
+      "find": "avoid tax",
+      "replace": "reduce what you legally owe",
+      "family": "closers"
+    },
+    {
+      "find": "TaxJeje files for you",
+      "replace": "TaxJeje prepares your return",
+      "family": "closers"
+    },
+    {
+      "find": "NRS-approved",
+      "replace": "built for NRS rules",
+      "family": "closers"
+    },
+    {
+      "find": "NRS-certified",
+      "replace": "built for NRS rules",
+      "family": "closers"
+    },
+    {
+      "find": "in partnership with NRS",
+      "replace": "independent of NRS",
+      "family": "closers"
+    },
+    {
+      "find": "the AI learns from you",
+      "replace": "we keep your corrections",
       "family": "closers"
     }
   ],
