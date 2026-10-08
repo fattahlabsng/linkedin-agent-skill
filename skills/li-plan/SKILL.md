@@ -32,7 +32,7 @@ for four things and write them down:
 ## Which product
 
 If the config lists `products`, ask which one the week is for unless the
-request says ("plan TaxJeje's week"). A week can be split between products
+request says ("plan the app's week"). A week can be split between products
 when the user asks for that; then label every slot with its product and keep
 each slot's angle and hook inside that product's section of the voice file.
 
