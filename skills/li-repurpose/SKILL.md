@@ -25,7 +25,7 @@ Some users post for more than one product or brand from the same profile.
 If `~/.claude/linkedin/config.json` lists `products`, every post extracted is for
 exactly one of them:
 
-1. **Take it from the request** - "for TaxJeje", "for the agency". If the
+1. **Take it from the request** - "for the app", "for the agency". If the
    request does not name one, **ask which before writing anything.** Do not
    guess from the topic.
 2. **Write from that product's section of the voice file** (its
