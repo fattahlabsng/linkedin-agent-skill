@@ -49,6 +49,21 @@ Then spend ten minutes on `templates/voice.md`. Copy it to
 into Claude and say "write my voice.md from these". Every skill reads that
 file. Skip it and everything comes out sounding like everyone else.
 
+**Keeping your files somewhere else.** If your voice file, plan and log
+already live in a repo, point the skills at them with
+`~/.claude/linkedin/config.json` instead of copying them:
+
+```json
+{
+  "voice": "/path/to/your/repo/voice.md",
+  "plan": "/path/to/your/repo/linkedin/plan.md",
+  "log": "/path/to/your/repo/linkedin/log.md",
+  "timezone": "Africa/Lagos"
+}
+```
+
+Every key is optional. Anything missing falls back to `~/.claude/linkedin/`.
+
 ## The eleven
 
 | command | what it does |
