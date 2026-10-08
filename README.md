@@ -64,6 +64,22 @@ already live in a repo, point the skills at them with
 
 Every key is optional. Anything missing falls back to `~/.claude/linkedin/`.
 
+**More than one product on one profile.** Add `products`, and the writing
+skills ask which product a post is for when you don't say:
+
+```json
+{
+  "checks": ["/path/to/disclosure-rules.md"],
+  "products": {
+    "app":    { "voice_section": "App audience",    "checks": ["/path/to/banned-claims.md"] },
+    "agency": { "voice_section": "Agency audience", "checks": [] }
+  }
+}
+```
+
+`voice_section` names a heading in your voice file. `checks` are files of
+rules every draft must pass before you see it.
+
 ## The eleven
 
 | command | what it does |

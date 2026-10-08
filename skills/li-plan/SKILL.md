@@ -29,6 +29,13 @@ for four things and write them down:
    thing they built, an argument they had. This is where posts come from.
 4. Ten to twenty people or companies worth being visible to.
 
+## Which product
+
+If the config lists `products`, ask which one the week is for unless the
+request says ("plan TaxJeje's week"). A week can be split between products
+when the user asks for that; then label every slot with its product and keep
+each slot's angle and hook inside that product's section of the voice file.
+
 ## What to post
 
 Four posts a week beats seven. Consistency is a floor, not a target, and the
