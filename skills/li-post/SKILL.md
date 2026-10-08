@@ -16,7 +16,12 @@ posted it.
 
 ## Before you write
 
-1. Read `~/.claude/linkedin/voice.md` if it exists. That file is the user's
+1. Find the user's files first. If `~/.claude/linkedin/config.json` exists, it
+   says where they live: `voice`, `plan` and `log` are paths, and it may also
+   set `timezone` and `products`. Use those paths wherever this pack says
+   `voice.md`, `plan.md` or `log.md`. Without a config, the files are
+   `~/.claude/linkedin/voice.md`, `plan.md` and `log.md`.
+   Then read the voice file if it exists. That file is the user's
    voice profile: how they talk, what they never say, who they are talking to.
    If it does not exist, ask for **three of their own past posts**, infer the
    voice from those, and write the file. Do not skip this and do not invent a
@@ -71,7 +76,7 @@ Reply "yes" to log it, or tell me what to change.
 ```
 
 **5. Never publish.** This skill produces text. The user posts it. On "yes",
-append the post to `~/.claude/linkedin/log.md` with the date, the hook used
+append the post to the log file with the date, the hook used
 and the first line, so `/li-audit` has a history to work from later.
 
 ## Rules that make the difference
