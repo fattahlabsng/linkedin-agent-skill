@@ -21,6 +21,15 @@ it). If they paste a screenshot, read it. If they give you a URL you cannot
 open, ask them to paste the text - do not guess what the post said, and do not
 use browser automation to scrape the feed.
 
+## Which hat
+
+If `~/.claude/linkedin/config.json` lists `products`, a comment is written
+under exactly one of them, because the commenter's headline shows beside it
+and readers judge the comment by that hat. Take it from the request ("as
+me", "for the agency"); if it is not named, ask before writing. Use that
+product's section of the voice file and run its `checks`. A comment never
+pitches a product the post did not ask about.
+
 ## The nine comment types
 
 Pick by what the post actually is. Never default to type 1.
